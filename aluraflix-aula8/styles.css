@@ -1,0 +1,60 @@
+body { /*configurações do corpo da pagina*/
+    color: white; /*define a cor do texto*/
+    background: black; /*define a cor do fundo*/
+    margin: 0px; /*cria uma margem evolta do conteudo da pagina - toda a pagina neste casa*/
+    font-family: "Chakra Petch", sans-serif; /*define a fonte do texto da pagina*/
+    margin-bottom: 100px; /*cria uma margem maior na parte inferior da pagina*/
+}
+
+header { /*define as configurações para o cabeçalho da pagina*/
+    border-bottom: solid 2px rgb(42, 122, 228); /*cria uma borda na parte inferior do cabeçalho*/
+    padding: 20px; /*cria um espaçamento interno na cabeçalho*/
+    font-size: 32px; /*define o tamanho da fonte*/
+    color: rgb(42, 122, 228); /*define a cor da fonte*/
+}
+
+.chamada { /*define as configurações da classe chamada*/
+    background: rgb(184, 156, 213); /*define a cor do fundo*/
+    padding-bottom: 80px; /*cria um  espaçamento na parte inferior da classe*/
+    padding-top: 80px; /*cria um  espaçamento na parte superior da classe*/
+    display: flex; /*faz com que os itens dentro da classe fiquem um ap lado do outro*/
+    justify-content: center; /*alinha o conteudo dentro da classe ao seu centro*/
+}
+
+.chamada-texto { /*define as configurações da classe chamada-texto*/ 
+    margin-right: 5%; /*cria uma margem a direita com o tamnho de 5% do espaço disponivel*/
+}
+
+h1 { /*configurações para o titulo primario*/
+    font-size: 40px; /*define o tamanho da fonte*/
+}
+
+p { /*configurações do paragrafo*/ 
+    font-size: 20px; /*define o tamanho da fonte*/
+}
+
+.categoria-videos {  /*define as configurações da classe categoria-videos*/ 
+    display: flex; /*faz com que os itens dentro da classe fiquem um ap lado do outro*/
+    overflow-x: auto; /* define que os os itens dentro da classe, continuem para o lado da pagina*/
+    gap: 10px; /*espaçamento entre os itens*/
+}
+
+.categoria { /*define as configurações da classe categoria*/ 
+    padding-left: 20px;  /*cria um  espaçamento na parte esquerda da classe*/
+    padding-right: 20px; /*cria um  espaçamento na parte direita da classe*/
+    margin-top: 50px; /*cria uma margem maior na parte superior da classe*/
+}
+
+.categoria-videos img { /*define as configurações das imagens dentro da classe categoria-videos*/ 
+    opacity: 0.5; /*define a opacidade das imagens*/
+    height: 200px; /*define a altura dos videos*/
+}
+
+.categoria-videos img:hover { /*define as configurações imagens dentro da classe categoria-videos, quando o mouse estiver em cima da imagem*/ 
+    opacity: 1.0; /*define a opacidade das imagens*/
+    border: 3px solid green; /*Cria uma borda emvolta da imagem*/
+}
+
+.categoria h2 { /*define as configurações do titulo secundario dentro  da classe categoria*/ 
+    color: rgb(42, 122, 228); /*define a cor do texto */
+}
